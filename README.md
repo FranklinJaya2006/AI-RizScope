@@ -60,19 +60,21 @@
   <img src="rizzcopeuiux.png" width="250">
 </p>
 
-This project is an educational museum game developed for the Balla Lompoa Museum to provide an interactive and immersive learning experience for visitors through gameplay and Augmented Reality (AR) technology.
+AI-RizScope is an intelligent agriculture application developed using Unity and Roboflow Computer Vision technology to help farmers identify nutrient deficiencies in rice plants through smartphone cameras.
 
-The game combines historical exploration, puzzle-solving, object hunting, and AR interactions to help users learn about cultural artifacts and museum history in a more engaging way.
+The application analyzes plant leaf conditions in real time and classifies nutrient deficiency symptoms such as Nitrogen (N), Phosphorus (P), and Potassium (K) deficiencies. Based on the detected condition, the system provides recommendations and treatment suggestions to support crop health and productivity.
 
 Main features include:
 
-- Educational puzzle challenges
-- Museum object hunting gameplay
-- Interactive Augmented Reality (AR) system
-- Hidden easter eggs inside the museum
-- Historical learning through gamification
-- Immersive exploration experience
-- Historical quiz of balla lompoa
+- Real-time plant nutrient deficiency detection
+- Camera-based leaf scanning
+- AI-powered image classification using Roboflow
+- Nitrogen (N) deficiency identification
+- Phosphorus (P) deficiency identification
+- Potassium (K) deficiency identification
+- AI-generated recommendations
+- Mobile-friendly interface built with Unity
+- Agricultural decision support system
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,50 +91,10 @@ This game project was developed using the following technologies:
 This project uses several Unity packages and supporting libraries:
 
 - Unity 6 (6000.2.2f1)
-- Vuforia Engine
-- TextMeshPro
-- Unity Input System
-- XR Interaction Toolkit
-- Blender 3D Assets
-
-## Publication
-
-This project was documented as part of a research publication discussing the implementation of Augmented Reality (AR) technology and gamification for interactive museum education at Balla Lompoa Museum.
-
-### Research Title
-
-**ReplikaGO: Digitizing the Artifacts of the Balla Lompoa Museum through Augmented Reality and Gamification**
-
-### Research Overview
-
-The research focuses on developing a mobile-based educational game using Augmented Reality (AR) technology to improve visitor engagement and historical learning experiences inside the museum environment.
-
-The system integrates:
-
-- Unity Game Engine
-- Vuforia Engine
-- Marker-Based and Model Target AR
-- 3D Object Visualization
-- Educational Puzzle System
-- Gamification Mechanics
-
-The application allows users to interact with museum artifacts through AR visualization, complete historical puzzles, search for hidden objects, and discover easter eggs inside the museum environment.
-
-### Research Contributions
-
-- Development of an educational AR museum game
-- Interactive historical learning through gamification
-- Integration of Vuforia model target technology
-- Mobile-based immersive museum exploration
-- 3D cultural artifact visualization
-- Puzzle and object-hunting educational mechanics
-- Preservation and digitalization of local cultural heritage
-
-### Publication Link
-
-Journal Publication:
-
-[Research Publication](https://www.researchgate.net/publication/400532855_ReplikaGO_Digitizing_the_Artifacts_of_the_Balla_Lompoa_Museum_through_Augmented_Reality_and_Gamification)
+- C#
+- Roboflow
+- Computer Vision
+- Android SDK
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,9 +109,9 @@ Make sure you have installed the following software:
 - Unity Hub
 - Unity Editor 6 (6000.2.2f1)
 - Android Build Support
-- Visual Studio
-- Git
-- Blender (optional for 3D asset editing)
+- Github
+- Roboflow Account
+- Android Device (for testing)
 
 Check your installation:
 
@@ -166,13 +128,13 @@ You can verify the Unity version directly from Unity Hub.
 1. Clone the repository
 
 ```sh
-git clone https://github.com/your_username/your_repository.git
+git clone https://github.com/your_username/AI-RizScope.git
 ```
 
 2. Navigate to the project folder
 
 ```sh
-cd your_repository
+cd AI-RizScope
 ```
 
 3. Open the project using Unity Hub
@@ -191,12 +153,20 @@ Window → Package Manager
 
 Make sure these packages are installed:
 
-- Vuforia Engine
-- TextMeshPro
-- XR Interaction Toolkit
-- Input System
+- Unity Web Request
+- Android Build Support
 
-5. Configure Android Build Support
+5. Configure Roboflow API
+
+Open the project configuration file and replace the API Key with your own Roboflow API Key.
+
+```txt
+Roboflow API Key
+Project Endpoint
+Model Version
+```
+
+6. Configure Android Build Support
 
 Open:
 
@@ -210,7 +180,7 @@ Then select:
 Android → Switch Platform
 ```
 
-6. Run the project
+7. Run the project
 
 Press the **Play** button inside the Unity Editor.
 
@@ -224,37 +194,38 @@ To generate an Android APK:
 File → Build Settings → Build
 ```
 
-The generated APK can then be installed on Android devices for AR gameplay experience.
+The generated APK can then be installed on Android devices for field testing and plant nutrient analysis.
 
 ---
 
 ## Usage
 
-This project is a mobile-based educational museum game developed for Balla Lompoa Museum using gameplay and Augmented Reality (AR) technology.
+AI-RizScope is a mobile-based intelligent agriculture application that utilizes Computer Vision and Artificial Intelligence to identify nutrient deficiencies in rice plants.
 
-The game combines interactive learning, puzzle-solving, artifact hunting, and AR experiences to create an immersive educational environment for museum visitors.
+The application uses smartphone cameras and Roboflow AI models to analyze plant leaf conditions and provide recommendations based on detected nutrient deficiencies.
 
-Main gameplay features include:
+Main features include:
 
-- Historical puzzle-solving gameplay
-- Museum artifact hunting missions
-- Interactive AR experiences using Vuforia Engine
-- Easter egg discovery system
-- Educational exploration inside the museum
-- Marker and model target-based AR interaction
-- Mobile-based gameplay experience
-- 3D object visualization created using Blender
-
-The system uses Vuforia Engine model target generation technology to recognize museum objects and trigger AR-based educational content during gameplay.
+- Real-time rice leaf analysis
+- AI-powered nutrient deficiency detection
+- Nitrogen deficiency identification
+- Phosphorus deficiency identification
+- Potassium deficiency identification
+- Healthy plant classification
+- AI-generated recommendations
+- Mobile-based plant monitoring
+- Camera integration with Unity
 
 System workflow:
 
-1. Players explore the museum environment using a mobile device
-2. The game provides missions and puzzle objectives
-3. Players search for hidden historical artifacts
-4. Vuforia scans markers or model targets inside the museum
-5. AR content and 3D objects appear when targets are recognized
-6. Players complete challenges and unlock hidden easter eggs
+1. Users open the AI-RizScope application
+2. Users capture an image of a rice plant leaf
+3. The image is processed and sent to the Roboflow AI model
+4. The AI model analyzes the plant condition
+5. The system identifies the detected nutrient status
+6. AI generates recommendations and treatment suggestions
+7. Results are displayed directly within the application
+8. Users can use the recommendations for crop management decisions
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -263,8 +234,7 @@ System workflow:
 ## Contact
 
 - Franklin Jaya - [@franklinjaya_](https://www.instagram.com/franklinjaya_/) - franklinjaya827@gmail.com - [Franklin-Github](https://github.com/FranklinJaya2006) <br>
-- Chaiden Richardo Foanto - [@chaidenfoanto](https://www.instagram.com/chaidenfoanto/) - chaiden.foanto@gmail.com - [Chaiden-Github](https://github.com/chaidenfoanto) <br>
-- Alicia Juanita Lisal - [@alicia_lisal](https://www.instagram.com/alicia_lisal/) - alicia.lisal94@gmail.com - [Chaiden-Github](https://github.com/alicialisal) <br>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -273,11 +243,7 @@ System workflow:
 This Project are developed by **Replika-Go Development Team**, which consist of five people:
 
 1. **Alicia Lisal**
-2. **Chaiden Richardo Foanto**
-3. **Derick Norlan**
-4. **Franklin Jaya** 
-5. **Michael Christianto Sawitto** 
-
+2. **Alvin Yuga Pramana**
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
