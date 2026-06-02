@@ -59,7 +59,7 @@
 ## About The Project
 
 <p align="center">
-  <img src="rizzcopeuiux.png" width="250">
+  <img src="rizzcopeuiux.png" width="350">
 </p>
 
 AI-RizScope is an intelligent agriculture application developed using Unity and Roboflow Computer Vision technology to help farmers identify nutrient deficiencies in rice plants through smartphone cameras.
