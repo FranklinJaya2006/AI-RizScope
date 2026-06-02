@@ -57,7 +57,7 @@
 ## About The Project
 
 <p align="center">
-  <img src="rizzcope.png" width="250">
+  <img src="rizzcopeuiux.png" width="250">
 </p>
 
 This project is an educational museum game developed for the Balla Lompoa Museum to provide an interactive and immersive learning experience for visitors through gameplay and Augmented Reality (AR) technology.
