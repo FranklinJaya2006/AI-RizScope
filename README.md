@@ -57,9 +57,7 @@
 ## About The Project
 
 <p align="center">
-  <img src="kiri.jpg" width="250">
-  <img src="tengah1.jpg" width="250">
-  <img src="kaanaan.jpg" width="250">
+  <img src="rizzcope.png" width="250">
 </p>
 
 This project is an educational museum game developed for the Balla Lompoa Museum to provide an interactive and immersive learning experience for visitors through gameplay and Augmented Reality (AR) technology.
