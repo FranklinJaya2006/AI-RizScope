@@ -2,6 +2,8 @@
 
 [![Contributors](https://img.shields.io/github/contributors/FranklinJaya2006/AI-RizScope.svg?style=for-the-badge)](https://github.com/FranklinJaya2006/AI-RizScope/graphs/contributors)
 
+[![LinkedIn Franklin Jaya](https://img.shields.io/badge/LinkedIn-Franklin%20jaya-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&logoWidth=20)](https://www.linkedin.com/in/franklin-jaya-6a3697364/) [![LinkedIn Chaiden Foanto](https://img.shields.io/badge/LinkedIn-Chaiden%20Foanto-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&logoWidth=20)](https://www.linkedin.com/in/chaidenfoanto/?locale=en)
+
 [contributors-shield]: https://img.shields.io/github/contributors/FranklinJaya2006/AI-RizScope.svg?style=for-the-badge]
 
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white
